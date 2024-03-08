@@ -1,0 +1,33 @@
+.cont {
+    margin-top: 6rem;
+}
+
+.card{
+    padding: 2rem;
+    background-color: rgb(31, 41, 55);
+    width: 88%;
+    text-align: center;
+    margin: 0 auto 6rem;
+    border-radius: 0.5rem;
+}
+
+.card .quote{
+    font-size: 1.875rem;
+    color: white;
+    line-height: 2.25rem;
+    
+}
+
+.card .author{
+    margin: 0.5rem 0 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: rgb(156, 163, 175);
+}
+
+@media (max-width : 600px){
+    .card .quote{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+}
